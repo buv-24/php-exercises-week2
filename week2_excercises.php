@@ -77,67 +77,67 @@
 
 Övning 1: <h2>Update/Delete</h2>
 
-<?php
-//Skapa en array med tre länder och lägg till ett nytt namn med array_push(). Skriv ut hela arrayen.
-//Använd sedan unset() och ta bort ett land. Skriv ut array.
-//tips: Lista med alla inbyggda array funktioner: https://www.w3schools.com/php/php_ref_array.asp
-//tips: https://www.w3schools.com/php/func_array_push.asp
-?>
+    <?php
+    //Skapa en array med tre länder och lägg till ett nytt namn med array_push(). Skriv ut hela arrayen.
+    //Använd sedan unset() och ta bort ett land. Skriv ut array.
+    //tips: Lista med alla inbyggda array funktioner: https://www.w3schools.com/php/php_ref_array.asp
+    //tips: https://www.w3schools.com/php/func_array_push.asp
+    ?>
 
-</div>
+    </div>
 
-        <div class="grid-item">
-        Övning 1.2: <h2>Medelvärde</h2>
-        
-        <?php
-//Beräkna medelvärde. Skapa ett PHP-skript som tar fem tal inuti en "vanlig", indexerad array och sedan beräknar medelvärdet av dem. Visa resultatet.
-//Tips: Använd arrayName[x] (till exempel arrayName[1]) för att komma åt ett specifikt värde.
-?>
-
-        </div>
-        <div class="grid-item">
-
-Övning 1.3: <h2>Sortera</h2>
-
-<?php
-//Skapa en array med fem tal i osorterad ordning. Sortera dem i stigande ordning med sort() och skriv ut resultatet.
-?>
-
-</div>
     <div class="grid-item">
-Övning 2: <h2>Associerad array</h2>
+    Övning 1.2: <h2>Medelvärde</h2>
+            
+    <?php
+    //Beräkna medelvärde. Skapa ett PHP-skript som tar fem tal inuti en "vanlig", indexerad array och sedan beräknar medelvärdet av dem. Visa resultatet.
+    //Tips: Använd arrayName[x] (till exempel arrayName[1]) för att komma åt ett specifikt värde.
+    ?>
 
-<?php
-//Skapa en associerad array med nycklar för "name", "age" och "city", och skriv ut i följande format: "Peter är 25 år gammal och bor i Göteborg" från arrayen.
-/*Tips: Skriv arrayen på följande sätt så blir det mer lättläst:
-    $person = [
-        "" => "",
-        "" => ,
-        "" => ""
-    ];
-Sedan kan du använda $person[''] med specifik nyckel*/
-?>
+    </div>
+    <div class="grid-item">
 
-</div>
+    Övning 1.3: <h2>Sortera</h2>
+
+    <?php
+    //Skapa en array med fem tal i osorterad ordning. Sortera dem i stigande ordning med sort() och skriv ut resultatet.
+    ?>
+
+    </div>
+    <div class="grid-item">
+    Övning 2: <h2>Associerad array</h2>
+
+    <?php
+    //Skapa en associerad array med nycklar för "name", "age" och "city", och skriv ut i följande format: "Peter är 25 år gammal och bor i Göteborg" från arrayen.
+    /*Tips: Skriv arrayen på följande sätt så blir det mer lättläst:
+        $person = [
+            "" => "",
+            "" => ,
+            "" => ""
+        ];
+    Sedan kan du använda $person[''] med specifik nyckel*/
+    ?>
+
+    </div>
     <div class="grid-item">
     Övning 3:<h2> Fruktsallad</h2>
     <?php
-// Skapa två arrayer med olika frukter och slå ihop dem med array_merge(). Skriv ut resultatet.
-// Dokumentation: https://www.php.net/manual/en/function.array-merge.php
-?>
+    // Skapa två arrayer med olika frukter och slå ihop dem med array_merge(). Skriv ut resultatet.
+    // Dokumentation: https://www.php.net/manual/en/function.array-merge.php
+    ?>
     </div>
 
     <div class="grid-item">
     Övning 4: <h2>Gästbok i med array</h2>
     <?php
-// Skapa en enkel gästbok med HTML forms och method POST eller GET där användaren kan skriva ett meddelande som sparas i en array och visas på sidan
-// Obs, det gör inget att arrayen inte sparas efter refresh av sidan.
-// Tips: Använd en inbyggd funktion för att lägga till item till array
-// Inbyggda array funktioner: https://www.w3schools.com/php/php_arrays_functions.asp
-// Tips: använd if ($_SERVER["REQUEST_METHOD"] == "POST") {} för att kolla ifall submit har tryckts på formuläret.
-?>
+    // Skapa en enkel gästbok med HTML forms och method POST eller GET där användaren kan skriva ett meddelande som sparas i en array och visas på sidan
+    // Obs, det gör inget att arrayen inte sparas efter refresh av sidan.
+    // Tips: Använd en inbyggd funktion för att lägga till item till array
+    // Inbyggda array funktioner: https://www.w3schools.com/php/php_arrays_functions.asp
+    // Tips: använd if ($_SERVER["REQUEST_METHOD"] == "POST") {} för att kolla ifall submit har tryckts på formuläret.
+    ?>
 
-</div>
+    </div>
 
     <div class="grid-item">
     Övning 5:<h2>Rensa en array</h2>
@@ -163,11 +163,11 @@ Sedan kan du använda $person[''] med specifik nyckel*/
 
         <table>
     <?php
-//Skapa ett PHP-skript som skriver ut en multiplikationstabell för ett tal som användaren anger i ett formulär. Använd en for-loop för att skriva ut varje rad. Resultatet ska se ut som tabellen nedan:
-?>
-    </table>
-    <h4>Målbild:</h4> 
-    Multiplikationstabell
+    //Skapa ett PHP-skript som skriver ut en multiplikationstabell för ett tal som användaren anger i ett formulär. Använd en for-loop för att skriva ut varje rad. Resultatet ska se ut som tabellen nedan:
+    ?>
+        </table>
+        <h4>Målbild:</h4> 
+        Multiplikationstabell
         <table>
             <tr>
                 <td>1</td>
@@ -194,7 +194,7 @@ Sedan kan du använda $person[''] med specifik nyckel*/
                 <td>9</td>
             </tr>
         </table>
-    
+        
     </div>
     <div class="grid-item">
     Övning 7:<h2>Slumpade citat</h2>
@@ -220,7 +220,7 @@ Sedan kan du använda $person[''] med specifik nyckel*/
     // Skapa en array med 5 tal och använd en for-loop för att hitta och skriva ut det största talet.
     ?>
         </div>
-  
+
     <div class="grid-item">
     Övning 10: <h2>Slå samman två arrayer och ta bort dubbletter manuellt
     </h2>
@@ -234,9 +234,9 @@ Sedan kan du använda $person[''] med specifik nyckel*/
     Övning 11: <h2>Omvänd ordningen i en array
     </h2>
     <?php
-// Skapa en array med några element och använd for-loop för att skapa en ny array där ordningen på elementen är omvänd.
-// Lös utan att använda en inbyggd array funktion
-?>
+    // Skapa en array med några element och använd for-loop för att skapa en ny array där ordningen på elementen är omvänd.
+    // Lös utan att använda en inbyggd array funktion
+    ?>
 
     </div>
     <div class="grid-item">
