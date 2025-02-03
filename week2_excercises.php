@@ -36,15 +36,52 @@
     <h1>PHP Övningar vecka 2</h1>
 
     <div class="grid-container">
-
-
     <div class="grid-item">
+
+
+    <?php
+
+    /*Exempel på de 3 olika array:erna som finns. (indexerad, associativ, och multidimensionell)
+    //Indexerad array (vanlig array)
+        $frukter = [
+        "Äpple", 
+        "Banan", 
+        "Apelsin"];
+        echo $frukter[0]; // Skriver ut "Äpple"
+
+        //Eller skrivet på en enda  rad:
+        $frukter = ["Äpple", "Banan", "Apelsin"];
+    
+
+    //Associerad array (kallas ofta key value pair-array)
+        $person = [
+            "namn" => "Lisa",
+            "ålder" => 25
+        ];
+        echo $person["namn"]; // Skriver ut "Lisa"
+
+        Kan även skrivas på en enda rad såklart:
+        $person = [ "namn" => "Lisa", "ålder" => 25];
+    
+
+    //Multidimensionell array (tre arrayer inuti en array. I det här fallet 3 indexerade (vanliga arrayer))
+        $maträtt = [
+            ["Pasta", "Tomatsås", "Ost"],
+            ["Bröd", "Smör", "Ost"],
+            ["Ris", "Kyckling", "Curry"]
+        ];
+        echo $maträtt[2][1]; // Skriver ut "Kyckling"
+    
+    */
+    ?>
 
 Övning 1: <h2>Update/Delete</h2>
 
 <?php
-//Skapa en array med tre namn och lägg till ett nytt namn med array_push(). Skriv ut hela arrayen.
+//Skapa en array med tre länder och lägg till ett nytt namn med array_push(). Skriv ut hela arrayen.
 //Använd sedan unset() och ta bort ett land. Skriv ut array.
+//tips: Lista med alla inbyggda array funktioner: https://www.w3schools.com/php/php_ref_array.asp
+//tips: https://www.w3schools.com/php/func_array_push.asp
 ?>
 
 </div>
@@ -55,7 +92,7 @@
         
         <?php
 //Beräkna medelvärde. Skapa ett PHP-skript som tar fem tal inuti en "vanlig", indexerad array och sedan beräknar medelvärdet av dem. Visa resultatet.
-//Tips: Använt arrayName[x] (till exempel arrayName[1]) för att komma åt ett specifikt värde.
+//Tips: Använd arrayName[x] (till exempel arrayName[1]) för att komma åt ett specifikt värde.
 ?>
 
         </div>
@@ -83,15 +120,8 @@
 Sedan kan du använda $person[''] med specifik nyckel*/
 ?>
 
-
-
 </div>
-
-
         <div class="grid-item">
-
-        
-
         Övning 3:<h2> Fruktsallad</h2>
     <?php
 // Skapa två arrayer med olika frukter och slå ihop dem med array_merge(). Skriv ut resultatet.
@@ -131,7 +161,7 @@ Sedan kan du använda $person[''] med specifik nyckel*/
 
         </div>
         <div class="grid-item">
-        Övning 6:<h2>Multiplikationstabell 1 till 3 med</h2>
+        Övning 6:<h2>Multiplikationstabell 1 till 3</h2>
 
         <table>
     <?php
@@ -193,10 +223,6 @@ Sedan kan du använda $person[''] med specifik nyckel*/
 ?>
         </div>
   
-   
-
-
-
     <div class="grid-item">
     Övning 10: <h2>Slå samman två arrayer och ta bort dubbletter manuellt
     </h2>
@@ -216,6 +242,38 @@ Sedan kan du använda $person[''] med specifik nyckel*/
 
     </div>
 
+    <div class="grid-item">
+    Övning 12: <h2>Multidimensionell array veckoschema 
+    </h2>
+    <?php
+//Skapa en multidimensionell array som representerar ett veckoschema (5 dagar) där varje dag innehåller tre aktiviteter.
+//Skapa tre st indexerade multidimensionella arrayer inuti en array
+//Skriv sedan ut vad 3:de aktiviteten på fredag, samt den 2:de aktiviteten på tisdag med en echo.
+?>
+
+    </div>
+
+    <div class="grid-item">
+    Övning 13: <h2>Multidimensionell array med bilar</h2>
+    <?php
+// Skapa en multidimensionell array som innehåller information om tre olika bilar (märke, modell, år). Använd en loop för att hitta och skriva ut informationen om en specifik bilmodell.
+//Skriv ett PHP-skript som letar efter modellen "X5" och skriver ut:
+//"Bilen är en BMW X5 från 2019."
+// Tips: Skapa tre associativa arrayer inuti en array med av syntaxen nedan, och använd 3 key value-pair:
+/*
+$array = [
+
+    ["" => "",],
+    [],
+    []
+
+];
+
+*/
+
+?>
+
+    </div>
     </div>
 
 </body>
