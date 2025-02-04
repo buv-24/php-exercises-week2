@@ -244,7 +244,7 @@
     </h2>
     <?php
 //Skapa en multidimensionell array som representerar ett veckoschema (5 dagar) där varje dag innehåller tre aktiviteter.
-//Skapa tre st indexerade multidimensionella arrayer inuti en array
+//Skapa tre st indexerade arrayer inuti en multidimensionella array
 //Skriv sedan ut vad 3:de aktiviteten på fredag, samt den 2:de aktiviteten på tisdag med en echo.
 ?>
 
